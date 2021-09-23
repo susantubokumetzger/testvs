@@ -1,0 +1,20 @@
+li[name]{
+    font-size: 20px;
+}
+
+li[name = "fruit-apple"]{
+    color: #dd0707;
+
+}
+
+li[name^="fruit"]{
+    margin: 10px;
+    border: 1px solid #462c2c;
+}
+li[name ="banana"]{
+    color: #462c2c;
+}
+
+li[name = "watermellon"]{
+    color: #37b98e;
+}
