@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    display:inline-table;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color:brown;
+  }
+  
+  #three {
+    
+    position: absolute;
+    
+    top: 20px;
+    left: 20px;
+    background: blue;
+  }
+
+  .wrapper {
+      
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: limegreen;
+    
+    
+  }
+  .two {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    background-color: lime;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .four {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 4;
+  }
+
+  .tammer {
+    position: relative;
+  }
+  
+  .dashed-box {
+    position: relative;
+    z-index: 1;
+    border: dashed;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+  .gold-box {
+    position: absolute;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    background: gold;
+    width: 80%;
+    left: 60px;
+    top: 3em;
+  }
+  .green-box {
+    position: absolute;
+    z-index: 1; /* put .green-box above .dashed-box */
+    background: lightgreen;
+    width: 20%;
+    left: 65%;
+    top: -25px;
+    height: 7em;
+    opacity: 0.9;
+  }
+
+  
