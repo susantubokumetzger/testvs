@@ -1,0 +1,65 @@
+body{
+    
+    --background-color: green;
+    padding: 25px;
+
+}
+
+
+
+.container{
+    width: 500px;
+    height: 1000px;
+    background-color: yellow;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    position:absolute;
+    left: 300px;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.static{
+    position: static;
+    top:20px;
+    left: 20px;
+
+}
+.relative{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+
+
+.fixed{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.sticky{
+    position: sticky;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+
