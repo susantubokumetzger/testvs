@@ -1,0 +1,198 @@
+a:link{
+    padding-left: 150px;
+}
+
+.uname{
+    padding-left: 50px;
+}
+
+
+.Buy{
+    padding-left: 100px;
+}
+
+
+
+
+
+.Sell{
+    padding-left: 100px;
+}
+
+.Rent{
+    padding-left: 100px;
+}
+
+
+
+
+
+.information{
+    
+    margin-left: 10px;
+    border:solid;
+}
+
+.information>text{
+    padding-right: 10px;
+    margin-left: 5px;
+    border: solid;  
+}
+
+.information{
+    font-size: 10px;
+    width: 50%;
+   
+}
+
+.apartments{
+    padding: 25px;
+    text-align: center;
+}
+
+.intro{
+    padding: 25px;
+       text-align: center;
+}
+
+.fit-picture{
+    padding-left: 75px;
+}
+
+
+.click{
+    padding: 10px;
+    width: 25%;
+    color: blue;
+    background-color: blue;
+    margin-left: 450px;
+    
+}
+
+
+
+#continue {
+    font-size: 25px;
+
+    color:white;
+    
+}
+
+.featuredapartments{
+    font-size: 50px;
+    text-align:center;
+
+}
+
+.searchedapartments{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* apartment details */
+.knightbridge{
+       text-align: center;
+       
+       margin-left:10px;
+      
+       
+
+    width:50%
+}
+
+
+
+
+
+
+
+.belmont{
+    text-align: center;
+    margin-left:10px;
+    
+    width:50%
+}
+
+
+
+.timberyard{
+    text-align: center;
+    margin-left: 10px;
+    
+    width: 50%
+}
+/* apartment lists, listed as apartment1, apartment2 and apartment3 */
+.apartment1{
+    margin-left: 10px;
+    
+    width:50%
+    
+    
+}
+
+.apartment2{
+    margin-left: 10px;
+   
+    width:50%
+}
+
+.apartment3{
+    margin-left: 10px;
+    
+    width:50%
+}
+
+
+.plans{
+    margin-left: 10px;
+    border:solid;
+    border-color:thistle;
+}
+
+.h1{
+    margin-left: 10px;
+
+    text-align: center;
+}
+
+.yourdreamapartment{
+    margin-left:10px;
+    text-align:center;
+    border:solid;
+    border-color: white;
+}
+/* for this button, we set the color of the text to blue and background color to white. */
+.btn{
+    color:white;
+    font-size: 20px;
+    background-color:blue;
+    margin-left: 25px;
+    text-align:left;
+    width:50%
+    
+}
+
+.end{
+
+    margin-left: 0px;
+    margin-right: 0px;
+    border:solid;
+    background-color:royalblue;
+    text-align: left;
+    width: 100%
+    
+}
+
+.links{
+    padding-left: 25px;
+
+    margin-left: 25px;
+    text-align: left;
+    width:50%
+    
+
+}
+/* setting the color of footer to white, to distinguish it from the background color */
+.footer{
+    color:white;
+}
