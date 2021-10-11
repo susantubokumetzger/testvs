@@ -1,7 +1,7 @@
-# assignment-1-susantubokumetzger
-assignment-1-susantubokumetzger created by GitHub Classroom
+# assignment-2-susantubokumetzger
+assignment-2-susantubokumetzger created by GitHub Classroom
 
-Assignment 1
+Assignment 2
 
 Basic Information
 
